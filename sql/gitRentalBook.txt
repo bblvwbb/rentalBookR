@@ -1,0 +1,56 @@
+Windows
+
+リーダー
+以下のコマンドを実行
+cd /C/php/wkspc2/testGit/php
+git init
+
+git config --global user.name "us01"
+git config --global user.email "us01@localhost"
+
+git add -A
+git commit -m "first commit by name"
+git branch develop
+git branch rensyu
+git branch
+
+
+[gitbash]
+git remote add rentalBook http://192.168.56.2/gitbucket/git/testG01/rentalBook.git
+git push -u rentalBook master
+git push -u rentalBook develop
+git push -u rentalBook rensyu
+
+
+
+
+メンバー
+
+git clone http://192.168.56.2/gitbucket/git/testG01/rentalBook.git php
+
+git branch
+
+git checkout rensyu
+
+eclipseにて
+test_name.txt 追加
+
+git add test_name.txt
+git commit -m "name"
+git push -u rentalBook rensyu
+
+
+
+ブランチを元(master)に戻す
+
+git checkout master
+git pull -u rentalBook master
+
+eclipseにてプロジェクトをリフレッシュ
+
+
+
+
+
+
+

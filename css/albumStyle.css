@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+
+
+/*--------------- contentsArea ---------------*/
+
+
+#album p, #photoList p,.reButton {
+
+		padding-left		: 0;
+
+	}
+
+#album #contentsArea p, #photoList #contentsArea p {
+
+		margin-bottom		: 20px;
+		text-align			: center;
+
+
+	}
+
+
+#contentsArea{
+
+		padding-bottom	: 50px;
+
+
+	}
+
+
+
+/*--------------- 検索フォーム ---------------*/
+
+#album form {
+
+	float		: right;
+	padding		: 0;
+
+}
+
+
+#searchform {
+
+	boredr				: none;
+	background-image	: none;
+	box-shadow			: none;
+	width				: 200px;
+	height				: 25px;
+	padding				: 0;
+
+}
+
+
+
+#album .submit {
+
+	float	: left;
+
+}
+
+#album .submit a{
+
+	padding	: 0 2px 0 5px;
+
+}
+
+#photoList .editButton {
+
+	float	: left;
+
+}
+
+
+.srhButton {
+
+		-moz-box-shadow			: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow		: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		box-shadow				: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		-webkit-border-radius	: 3px;
+		-moz-border-radius		: 3px;
+		border-radius			: 3px;
+		padding					: 3px;
+		text-shadow				: 0px -1px 1px rgba(255, 255, 255, 0.8);
+		background-image		: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#aaa));
+		background-image		: -webkit-linear-gradient(top, #ddd, #aaa);
+		background-image		: -moz-linear-gradient(top, #ddd, #aaa);
+		background-image		: -ms-linear-gradient(top, #ddd, #aaa);
+		background-image		: -o-linear-gradient(top, #ddd, #aaa);
+		background-image		: linear-gradient(top, #ddd, #aaa);
+
+
+		/* IE6-9 */
+
+		filter					: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddd', endColorstr='#aaa',GradientType=0 );
+		width					: 60px;
+		text-align				: center;
+
+	}
+
+
+.srhButton a {
+
+		color					: #000;
+		text-decoration			: none;
+
+	}
+
+
+/*--------------- リストページ  ---------------*/
+
+#album table {
+
+	width		: 100%;
+
+}
+
+#album td {
+
+	padding		: 10px;
+	border		: solid 1px #555;
+
+}
+
+#album td a {
+
+	padding				: 20px 0 20px 20px;
+	color				: #666666;
+	vertical-align		: top;
+	font-size			: 0.88em;
+	background-image	: url("../img/album.png");/* 赤い矢印を設置 */
+	background-repeat	: no-repeat;
+	background-position	: left;
+
+}
+
+
+/*--------------- 詳細ページ  ---------------*/
+
+
+
+ .fileUp,input[name="search"] {
+
+	boredr				: 0;
+	background-image	: none;
+	padding				: 0;
+	border-radius		: 3px;
+	box-shadow			: none;
+}
+
+
+.fileUp {
+
+		width				: 300px;
+		float				: right;
+
+}
+
+.fileUp input[type="file"] {
+
+		width				: 210px;
+		padding				: 0;
+
+}
+
+.fileUp input[type="submit"] {
+
+		width				: 80px;
+
+}
+
+
+#photoList table {
+
+	-webkit-border-radius	: 3px;
+	-moz-border-radius		: 3px;
+	border-radius			: 3px;
+	-moz-box-shadow			: 0px 0px 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow		: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	box-shadow				: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	width					: 100%;
+
+
+}
+
+
+#photoList td {
+
+	padding					: 10px;
+	text-align				: center;
+
+
+}
+
+#photoList th {
+
+	padding					: 10px;
+
+}
+
+#photoList td p {
+
+	margin : 0;
+
+
+}
+
+
+#footer {
+
+	position : fixed;
+
+}

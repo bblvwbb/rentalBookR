@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"bButtons"
+			],
+			[
+				"c",
+				"cButtons"
+			],
+			[
+				"ge",
+				"getElementsByTagName"
+			],
+			[
+				"a",
+				"aButtons"
+			],
+			[
+				"i",
+				"item"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bot",
+				"border-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				],
+				[
+					"Packages/Compass/Compass.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS - Compressed.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "listpa",
+		"selected_items":
+		[
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list pas",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"try:",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = ‘7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0’; pf = 'Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/’ + pf.replace(’ ’, ’%20’)).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb’ ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/rentalBookR"
+	],
+	"file_history":
+	[
+		"/Users/AQ/Desktop/rentalBook_Front/scss/styale2.scss",
+		"/Applications/MAMP/htdocs/rentalBookR/sql/bookRental.sql",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US12/autobuy.js",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US9_mobile/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US14/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US13/manifest.json",
+		"/Users/AQ/Desktop/test.c",
+		"/Users/AQ/Desktop/1212_yahuoku.html",
+		"/Users/AQ/Dropbox/Supreme_自宅_life/2.4_0/scripts/checkout.js",
+		"/Users/AQ/Desktop/Supreme_自宅_visa/2.4_0/scripts/checkout.js",
+		"/Users/AQ/Dropbox/Supreme_自宅_visa/2.4_0/scripts/checkout.js",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US14/autobuy.js",
+		"/Users/AQ/Desktop/Nike_Action/disney_store/cart1.js",
+		"/Users/AQ/Desktop/Nike_Action/disney_store/store.js",
+		"/Users/AQ/Desktop/Nike_Action/zozo/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/disney_store/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/zozo/kounyu.js",
+		"/Users/AQ/Desktop/Nike_Action/miss/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/miss/miss.js",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_24cm/autobuy.js",
+		"/Users/AQ/Desktop/Nike_Action/disney/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/disney/yoyaku.js",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_24cm/manifest.json",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US9/autobuy.js",
+		"/Users/AQ/Desktop/Nike_Action/NIKEbot_US9/manifest.json",
+		"/Users/AQ/Downloads/ピンズ.html",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/background.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/http_extend.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/bookmark.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/blank.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/Back_extend.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/options.js",
+		"/Users/AQ/Desktop/ign_site/snaps_child/gulpfile.js",
+		"/Users/AQ/Desktop/ign_site/snaps_child/sftp-config.json",
+		"/Users/AQ/Desktop/ign_site/snaps_child/functions.php",
+		"/Users/AQ/Desktop/ign_site/snaps_child/sass/style.scss",
+		"/Users/AQ/Desktop/ign_site/snaps_child/ign_snaps.sublime-project",
+		"/Users/AQ/Desktop/ign_site/snap_child/sass/style.scss",
+		"/Users/AQ/Desktop/ign_site/snap_child/sftp-config.json",
+		"/Users/AQ/Desktop/ign_site/snap_child/config.rb",
+		"/Users/AQ/Desktop/ign_site/snap_child/css/style.css",
+		"/Users/AQ/Desktop/ign_site/snap_child/ign_snaps.sublime-project",
+		"/Users/AQ/Desktop/ign_site/snap_child/gulpfile.js",
+		"/Users/AQ/Desktop/ign_site/snap_child/sass/style.css",
+		"/Users/AQ/Downloads/endpoint.html",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/content_script.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/jquery-1.5.2.min.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/popup.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/Refresh_app.js",
+		"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon/js/thank_you.js",
+		"/Users/AQ/gulp_test/config.rb",
+		"/Users/AQ/gulp_test/gulpfile.js",
+		"/Users/AQ/gulp_test/package.json",
+		"/Users/AQ/gulp_test/css/style.css",
+		"/Users/AQ/gulp_test/sass/style.scss",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity_child/css/common.css",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity_child/sass/common.scss",
+		"/Applications/MAMP/htdocs/wp/sftp-config.json",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity_child/config.rb",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity_child/style.css",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity_child/sass/config.rb",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/wp_theme.sublime-project",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity_child/functions.php",
+		"/Applications/MAMP/htdocs/wp/wp-content/themes/simplicity/404.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Applications/MAMP/htdocs/wp/wp-config.php",
+		"/Users/AQ/Desktop/test_scss/config.rb",
+		"/Users/AQ/Desktop/test_scss/sass/style.scss",
+		"/Users/AQ/Desktop/test_scss/sass/style.css",
+		"/Users/AQ/Desktop/test_scss/scss/style.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon",
+			"/Users/AQ/Desktop/ign_site/snaps",
+			"/Users/AQ/Desktop/Auto Refresh Plus - Browser Addon"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",,",
+			"\n",
+			",",
+			"	",
+			"\n",
+			"NE24",
+			"\n",
+			",",
+			" ,",
+			"NE24-",
+			"</tr>\n<tr height=\"18\" style=\"height: 13.5pt\">",
+			"post_56361",
+			"name",
+			"id=\"",
+			"id",
+			"address",
+			"message",
+			"iedfjijakebknjakgklaihnifmpeojgf",
+			"drag",
+			"draggable",
+			"Drag",
+			"DragEvent",
+			"nmy.dutchmenanonymous.com",
+			"incognito",
+			"chrome.tabs.create",
+			"href",
+			"childWindow.location.href",
+			"window.open",
+			"onClick",
+			"parent-style",
+			"parent-style-css",
+			"@",
+			"comment",
+			"url=",
+			"ipt",
+			"alert(e)",
+			"theurl",
+			"location_replace",
+			"http",
+			"addrootMarkets",
+			"http",
+			"redirect",
+			"compass",
+			"684",
+			"244",
+			"631",
+			"6318",
+			"node",
+			"http",
+			"ほげへほs",
+			"simplicity"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			",",
+			"",
+			",\n",
+			"",
+			",NE24",
+			"",
+			",",
+			",NE24-",
+			",",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 587.0
+	},
+	"output.sftp":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "",
+	"project": "rentalBookR.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

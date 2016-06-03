@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+
+
+/*--------------- 段落、見出し ----------------*/
+
+h3 {
+
+	margin-top		: 20px;
+
+}
+
+.aboutCenter {
+
+	margin-bottom	: 20px;
+
+}
+
+
+
+/*--------------- リスト ----------------*/
+
+table {
+
+	width		: 100%;
+
+}
+
+td {
+
+	padding		: 10px;
+
+}
+
+tr{
+
+	border		: solid 1px #555;
+
+}
+
+

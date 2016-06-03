@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+
+
+/*--------------- float解除 ----------------*/
+
+.Article {
+
+	overflow: hidden;
+
+}
+
+
+/*--------------- リスト ----------------*/
+
+table {
+
+	width		: 100%;
+
+}
+
+td {
+
+	padding		: 10px;
+	border		: solid 1px #555;
+
+}
+
+td a {
+
+	padding				: 20px 0 20px 20px;
+	color				: #666666;
+	vertical-align		: top;
+	font-size			: 0.88em;
+	background-image	: url("../img/com.png");/* 赤い矢印を設置 */
+	background-repeat	: no-repeat;
+	background-position	: left;
+
+}
+
+
+/*--------------- コミュニティTOP ----------------*/
+
+
+	.join {
+
+		width					: 200px;
+		margin					: 20px auto;
+		text-align				: center;
+		/* シャドウ */
+		-moz-box-shadow			: inset 0 1px 0 rgba(255, 51, 51, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow		: inset 0 1px 0 rgba(255, 51, 51, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		box-shadow				: inset 0 1px 0 rgba(255, 51, 51, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		text-shadow				: 0px -1px 1px rgba(135, 0, 0, 0.8);
+
+
+		/* 角丸 */
+		-webkit-border-radius	: 3px;
+		-moz-border-radius		: 3px;
+		border-radius			: 3px;
+
+
+		/* グラデーション指定 */
+		background-image		: -webkit-gradient(linear, left top, left bottom, from(red), to(#cc0000));
+		background-image		: -webkit-linear-gradient(top, red, #cc0000);
+		background-image		: -moz-linear-gradient(top, red, #cc0000);
+		background-image		: -ms-linear-gradient(top, red, #cc0000);
+		background-image		: -o-linear-gradient(top, red, #cc0000);
+		background-image		: linear-gradient(top, red, #cc0000);
+
+
+		/* IE6-9 */
+		filter					: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddd', endColorstr='#aaa',GradientType=0 );
+		padding					: 3px;
+
+		clear					: both;
+
+	}
+
+	.join a {
+
+		color			: #FFF;
+		text-decoration	: none;
+		font-weight		: bold;
+		padding			: 5px 70px;
+
+	}
+
+
+
+
+.listButton {
+
+	margin		: 20px 10px 20px 0;
+	text-align	: center;
+	padding-left: 0px;
+	float		: left;
+
+}
+
+.listButton a {
+
+		/* シャドウ */
+		text-shadow				: 0px -1px 1px rgba(255, 255, 255, 0.8);
+		-moz-box-shadow			: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow		: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+		box-shadow				: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+
+		/* 角丸 */
+		-webkit-border-radius	: 3px;
+		-moz-border-radius		: 3px;
+		border-radius			: 3px;
+		padding					: 5px;
+
+
+		/* グラデーション指定 */
+		background-image		: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#aaa));
+		background-image		: -webkit-linear-gradient(top, #ddd, #aaa);
+		background-image		: -moz-linear-gradient(top, #ddd, #aaa);
+		background-image		: -ms-linear-gradient(top, #ddd, #aaa);
+		background-image		: -o-linear-gradient(top, #ddd, #aaa);
+		background-image		: linear-gradient(top, #ddd, #aaa);
+
+
+		/* IE6-9 */
+		filter					: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddd', endColorstr='#aaa',GradientType=0 );
+
+
+		text-decoration			: none;
+		color					: #000;
+
+}
+
+/*--------------- フッター ----------------*/
+
+#comArticle #footer {
+
+	position	: fixed;
+
+}
+
